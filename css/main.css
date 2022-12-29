@@ -1,0 +1,157 @@
+/* Start My Global Theme */
+body{
+  background-image: linear-gradient(to right, #d400ff, black);
+  width: 300px;
+  height: 300px;
+}
+
+.none{
+  display: none;
+}
+
+.none2{
+  display: none;
+}
+
+.check{
+  text-decoration: line-through;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.alert-info{
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #69007e;
+  border: none;
+  color: #fff;
+}
+
+.btn-danger{
+  float: right;
+  margin-top: -8px;
+  background-color: #d400ff;
+  border: none;
+}
+
+.btn-info{
+  background-color: green;
+  color: #fff;
+  float: right;
+  margin-top: -8px;
+  margin-right: 3px;
+  border: none;
+}
+
+.btn-info:hover{
+  background-color: #005f00 !important;
+  color: #fff;
+}
+/* End My Global Theme */
+
+/* Start Section Window */
+.window{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000119;
+  border-radius: 18px;
+  padding: 70px 0px;
+  box-shadow: 0px 0px 7px 4px #d400ff;
+}
+
+.window h1{
+  color: #fff;
+}
+
+.window h1 span{
+  color: #d400ff;
+}
+
+.window h6{
+  color: #fff;
+}
+
+.window input[class="main"]{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 4px 0px;
+}
+
+.window input[class="counter"]{
+  width: 3%;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 4px 0px;
+}
+
+.window button[class="btnAdd"]{
+  width: 50%;
+  margin: 11px 0px;
+  border-radius: 5px;
+  background-color: #d400ff;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.window button:hover{
+  background-color: #8800a3;
+  transition: all 0.5s;
+}
+
+.window .no-tasks{
+  margin-top: 70px;
+  background-color: black;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.window .no-tasks h3{
+  color: #d400ff;
+}
+
+.window .tasks{
+  background-color: #000119;
+  padding-bottom: 30px;
+}
+/* End Section Window */
+
+.are-you-sure{
+  position: absolute;
+  background-color: #59009d;
+  padding: 41px 0px;
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+  color: #fff;
+}
+
+.are-you-sure .yesBtn {
+  background-color: green !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+}
+
+.are-you-sure .noBtn {
+  background-color: red !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+}
